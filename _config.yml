@@ -1,13 +1,13 @@
 # Site settings
-title: Emping
+title: The DusTBALL License
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Let's Eat!!.
+  do what the fuck you want but DonT Blame the Author pubLic Licence
 baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-GoogleAnalytics: UA-xxxxxx-x
+url: "https://dustball-license.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  DusTBALL-LICENSE
+#GoogleAnalytics: UA-xxxxxx-x
 
 twitter:
   username: rmsubekti
