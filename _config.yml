@@ -1,47 +1,28 @@
-# Site settings
-title: The DusTBALL License
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  do what the fuck you want but DonT Blame the Author pubLic Licence
-baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
-url: "https://dustball-license.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  DusTBALL-LICENSE
-#GoogleAnalytics: UA-xxxxxx-x
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-twitter:
-  username: rmsubekti
-facebook:
-  app_id: 1234567
-  publisher: 1234567
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
 
-sass:
-    style: compressed
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.co
 
-# Build settings
-markdown: kramdown
-kramdown:
-  parse_block_html: true
+# Custom vars
+version:             1.0.0
 
+exclude: [vendor]
+
+# Gems
 gems:
-  - jekyll-redirect-from
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-
-defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
-
-include:
-  - _pages
-
-exclude:
-  - CNAME
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-paginate: 12
-paginate_path: '/blog/:num'
+  - jekyll-gist
